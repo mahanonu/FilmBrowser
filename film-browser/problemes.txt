@@ -1,0 +1,9 @@
+J'ai rencontré un problème sur la gestion des requêtes fetch et de leur affichage. J'ai essayé d'utiliser
+la balise React "Suspense" ou d'appliquer une condition dans le return de mon composant mais sans succès.
+J'ai uniquement réussi à contourner ce problème avec un return conditionnel qui empêche le rendu d'être 
+lu si tout n'est pas chargé.
+
+J'ai eu quelques problèmes css avec l'héritage des propriétés, notamment pour certains effets d'arrière-plan.
+
+Enfin je n'ai pas réussi à lier le genre d'un film avec la liste des genres de TMDB. Je ne sais pas si 
+c'est ma fonction qui n'est pas juste ou si l'asynchronité des requêtes me fait parcourir des arrays vides.

@@ -1,0 +1,14 @@
+.App-logo {
+  height: 20vmin;  
+  filter:drop-shadow(0 5px 6px black)
+}
+
+.header {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  background-color: #2B2E4A;
+  box-shadow:0 0 125px 125px #2B2E4A;
+}
